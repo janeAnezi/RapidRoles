@@ -12,8 +12,8 @@ export default function Home () {
                         <p className="text-slate-200 p-4">Your dream job is just one click away</p>
 
                         <div className="mt-20">
-                            <button className="bg-sky-500 font-bold mr-6 text-slate-200 py-2 px-4 text-sm">SEARCH JOB</button>
-                            <button className="bg-sky-500 font-bold text-slate-200 py-2 px-4 text-sm">FIND TALENT</button>
+                            <button className="bg-sky-500 font-bold hover:bg-sky-600 mr-6 text-slate-200 py-2 px-4 text-sm">SEARCH JOB</button>
+                            <button className="bg-sky-500 font-bold hover:bg-sky-600 text-slate-200 py-2 px-4 text-sm">FIND TALENT</button>
                         </div>
                     </div>
                 </div>
