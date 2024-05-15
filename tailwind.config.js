@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('./public/images/hero01.png')",
+        'hero': "url('./public/images/hero02.png')",
       },
       backgroundPosition: {
         'center': 'center',

@@ -1,4 +1,5 @@
-import Home from "./Components/Home"
+import Home from "./Components/Home";
+import Search from "./Components/Search";
 import "./index.css"
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <>
       <div>
         <Home />
-        
+        <Search />
       </div>
       
     </>
