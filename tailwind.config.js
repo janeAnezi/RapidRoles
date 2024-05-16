@@ -8,9 +8,11 @@ export default {
     extend: {
       backgroundImage: {
         'hero': "url('../src/assets/images/hero02.png')",
+        'aboutbg': "url('../src/assets/images/skybluebg.png')",
       },
       backgroundPosition: {
         'center': 'center',
+        'left' : 'left,'
       },
       backgroundSize: {
         'cover': 'cover',
