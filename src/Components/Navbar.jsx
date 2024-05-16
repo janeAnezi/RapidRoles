@@ -1,3 +1,8 @@
+import { FaSearch } from "react-icons/fa";
+import { FaRegBell } from "react-icons/fa";
+import { IoPerson } from "react-icons/io5";
+
+
 
 export default function Navbar  () {
     return (
@@ -15,10 +20,10 @@ export default function Navbar  () {
                             <li className="bg-sky-500 hover:bg-sky-600 py-1 px-2 rounded-lg font-bold cursor-pointer">Post Jobs</li>
                         </ul>
                     </div>
-                    <div>
-                        <i>searchicon  </i>
-                        <i>bellicon  </i>
-                        <i>personicon</i>
+                    <div><div><FaSearch /> </div></div>
+                    <div className="flex space-x-4"> 
+                        <div><FaRegBell /> </div> 
+                        <div><IoPerson />  </div>
                     </div>
                 </div>
             </div>
