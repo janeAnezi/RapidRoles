@@ -15,7 +15,7 @@ export default function About() {
                         be a daunting task. Whether you're seeking a role as a salesperson, a nurturing nanny, a reliable house help, 
                         or an inspiring tutor. Get the best match with an employee and land your dream job.
                     </p>
-                    <button className='bg-sky-400 rounded mt-10 p-2 absolute right-24 '>Read More</button>
+                    <button className='bg-sky-400 hover:bg-sky-500 rounded mt-10 p-2 absolute right-24 '>Read More</button>
                 </div>
                 
             </div>

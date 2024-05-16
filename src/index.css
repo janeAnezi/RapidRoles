@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide-in {
+    transition-duration: 0.5s; /* Adjust the duration as needed */
+    transform: translateX(0);
+  }
+  .slide-out {
+    transform: translateX(100%);
+  }

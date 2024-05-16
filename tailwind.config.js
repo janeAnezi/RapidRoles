@@ -20,6 +20,13 @@ export default {
       backgroundRepeat: {
         'none': 'no-repeat',
       },
+      slideIn: {
+        'transitionDuration': '0.5s', 
+        'transform': 'translateX(0)'
+      },
+      slideOut: {
+        'transform': 'translateX(100%)'
+      }
     },
   },
   plugins: [],
