@@ -1,5 +1,19 @@
 import Navbar from "./Navbar";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import  {Stack}  from '@mui/system';
+import Button from '@mui/material/Button';
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+const theme = createTheme({
+    palette: {
+      ochre: {
+        main: '#0EA5E9',
+        light: '#67c0E9',
+        dark: '#0284C7',
+        contrastText: '#FFFFFF',
+      },
+    },
+  });
 
 export default function Home () {
     return(
@@ -11,9 +25,13 @@ export default function Home () {
                         <h1 className="text-4xl font-bold text-slate-200"> FIND THE PERFECT JOB</h1>
                         <p className="text-slate-200 p-4">Your dream job is just one click away</p>
 
-                        <div className="mt-20">
-                            <button className="bg-sky-500 font-bold hover:bg-sky-600 rounded-md mr-6 text-slate-200 py-2 px-4 text-sm">SEARCH JOB</button>
-                            <button className="bg-sky-500 font-bold hover:bg-sky-600 rounded-md text-slate-200 py-2 px-4 text-sm">FIND TALENT</button>
+                        <div className="mt-20"  style={{ textAlign: 'center' }}>
+                            <ThemeProvider theme={theme}>
+                                <Stack spacing={2} direction="row" justifyContent="center">
+                                    <Button variant="contained" color="ochre">SEARCH JOB</Button>
+                                    <Button variant="contained" color="ochre">FIND TALENT</Button>
+                                </Stack>
+                            </ThemeProvider>
                         </div>
                     </div>
                 </div>
