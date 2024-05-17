@@ -6,23 +6,25 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function ImgMediaCard() {
+export default function ImgMediaCard({image, title, text}) {
     return (
       <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           component="img"
           alt="green iguana"
           height="140"
-          image="../src/assets/images/about05.jpeg"
+          image = {image}
+        //   image="../src/assets/images/about05.jpeg"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Sales
+           {title}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          We've curated a diverse range of job opportunities to cater to a multitude of talents and interests. 
+            {text}
+          {/* We've curated a diverse range of job opportunities to cater to a multitude of talents and interests. 
           Whether you're a seasoned sales professional looking for your next challenge or a compassionate caregiver eager 
-          to make a difference, our platform offers an array of roles suited to your expertise.
+          to make a difference, our platform offers an array of roles suited to your expertise. */}
           </Typography>
         </CardContent>
         <CardActions>
