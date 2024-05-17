@@ -3,7 +3,7 @@ import ImgMediaCard from "./Card"
 export default function Opportunities() {
     return (
       <>
-        <div className="py-20 bg-sky-100">
+        <div className="py-20 bg-gradient-to-b from-sky-100 to-sky-400">
           <h1 className="text-center text-3xl font-bold bg-gradient-to-b from-sky-400 to-sky-950 text-transparent bg-clip-text">OPPORTUNITIES</h1>
           <div className="flex space-x-6 justify-center mt-20"> 
             <ImgMediaCard image="../src/assets/images/about03.jpeg" title="SALES PERSON" text="With diverse range of job opportunities to cater to a multitude of talents and interests. 

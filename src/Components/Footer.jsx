@@ -3,9 +3,15 @@
 export default function Footer() {
   return (
     <>
-        <div>
-            <h1>This is the footer</h1>
-        </div>
+        <div className='items-center py-20 text-white bg-gradient-to-b from-sky-400 to-sky-950'>
+            <div className='flex items-end justify-center space-x-20'>
+                <div>column one</div>
+                <div>column one</div>
+                <div>column one</div>
+                <div>column one</div> 
+            </div>
+            
+        </div> 
     </>
   )
 }
