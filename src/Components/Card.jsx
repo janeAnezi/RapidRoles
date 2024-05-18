@@ -14,7 +14,6 @@ export default function ImgMediaCard({image, title, text}) {
           alt="green iguana"
           height="140"
           image = {image}
-        //   image="../src/assets/images/about05.jpeg"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -22,9 +21,6 @@ export default function ImgMediaCard({image, title, text}) {
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {text}
-          {/* We've curated a diverse range of job opportunities to cater to a multitude of talents and interests. 
-          Whether you're a seasoned sales professional looking for your next challenge or a compassionate caregiver eager 
-          to make a difference, our platform offers an array of roles suited to your expertise. */}
           </Typography>
         </CardContent>
         <CardActions>

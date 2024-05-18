@@ -38,7 +38,7 @@ export default function BarMenu() {
   };
 
   return (
-    <AppBar position="static" color="transparent">
+    <AppBar position="static" color="transparent" style={{ borderRadius: '10px' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />

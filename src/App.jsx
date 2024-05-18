@@ -15,6 +15,7 @@ function App() {
         <About />
         <Opportunities />
         <Footer />
+        
       </div>
       
     </>
