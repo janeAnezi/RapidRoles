@@ -1,7 +1,7 @@
 import { FaSearch } from "react-icons/fa";
 import { FaRegBell } from "react-icons/fa";
-import { IoPerson } from "react-icons/io5";
-
+// import { IoPerson } from "react-icons/io5";
+import Person from "./Person"
 
 
 export default function Navbar  () {
@@ -21,9 +21,9 @@ export default function Navbar  () {
                         </ul>
                     </div>
                     <div className="mt-2 mb-2 flex border rounded-lg"><FaSearch className="mt-1 ml-2"/><input className="rounded-lg bg-inherit px-1 ml-3 border-none outline-0 w-24 placeholder:text-start placeholder:text-sm" type="search" name="search" id="search" placeholder="search job"  /> </div>
-                    <div className="flex space-x-10 mt-2"> 
-                        <div><FaRegBell /> </div> 
-                        <div><IoPerson />  </div>
+                    <div className="flex space-x-10"> 
+                        <div className="mt-2"><FaRegBell /> </div> 
+                        <div><Person />  </div>
                     </div>
                 </div>
             </div>
